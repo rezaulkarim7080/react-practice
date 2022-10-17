@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// import React from 'react';--> functional component
+// import React,{ Component} from 'react';---> Class component er jonnno
+import logo from "./logo.svg";
+import "./App.css";
+import Book from "./components/Book";
+import Person from "./components/Person";
+import Person1 from "./components/person1";
+import Product from "./components/product";
+import Count from "./components/count";
+import MovieCount from "./components/count";
+import Users from "./components/users";
+import { useEffect, useReducer, useState } from "react";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>hello world</h1>
     </div>
   );
 }
